@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/IMYdev/twrp_device_infinix_X6816'
+        default: 'https://github.com/IMYdev/ofox_device_infinix_X6816'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'R11'
+        default: 'fox_11.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
