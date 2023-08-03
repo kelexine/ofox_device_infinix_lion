@@ -25,6 +25,7 @@ on post-fs
 
 on fs
     install_keyring
+	write /sys/devices/platform/tran_battery/OTG_CTL 1
 
 service mtk.plpath.utils.link /system/bin/mtk_plpath_utils
     class main
